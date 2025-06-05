@@ -12,14 +12,67 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-image: url("../assets/img/bgHeader.png");
     background-size: cover;
     background-position: center;
+    background-image: url("../assets/img/bgHeader.png");
 }
 
 header {
     text-align: center;
     padding: 20px;
+    background-image: url("../assets/img/bgHeader.png");
 }
 
+button.cursor-change {
+    background-color: #ff7e5f; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button.cursor-change:hover {
+    background-color: #f3710e
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.section img {
+    width: 40%;
+    height: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    color: #ff7e5f;
+}
+
+footer {
+    background-image: url("../assets/img/bgDown.png");
+    background-size: cover;
+    padding: 50px;
+}
+.section img {
+    width: 50%;
+    max-width: 600px;
+}
