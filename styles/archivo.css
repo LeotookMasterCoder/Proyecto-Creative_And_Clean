@@ -10,19 +10,26 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/img/bgHeader.png");
+    background-color: #fff;
 }
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 300px;
     background-image: url("../assets/img/bgHeader.png");
+    background-size: cover;
+    background-position: center;
+    color: black;
 }
-
+h1,
+h2 {
+    color: #f3710e;
+    font-weight: 50px;
+    
+}
 button.cursor-change {
     background-color: #ff7e5f; 
     color: white;
@@ -37,11 +44,30 @@ button.cursor-change:hover {
     background-color: #f3710e
 }
 
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-size: cover;
+}
 .section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px;
+    background-size: cover;
+    flex-direction: row-reverse;
+}
+.section3 {
+    display: flex;
+    background-image: url('../assets/img/bgDown.png');
+    background-position: center;
+    padding: 32vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
 }
 
 .section img {
@@ -68,11 +94,14 @@ button.cursor-change:hover {
 }
 
 footer {
-    background-image: url("../assets/img/bgDown.png");
-    background-size: cover;
-    padding: 50px;
+    background-color: #f3710e;
+    background-position: center;
+    color: #fff;
 }
 .section img {
     width: 50%;
-    max-width: 600px;
+    max-width: 500px;
+}
+.textcontent {
+
 }
